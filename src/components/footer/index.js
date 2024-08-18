@@ -18,6 +18,7 @@ const Footer = () => {
                         <input
                             type="email"
                             placeholder="Your Email Address"
+                            value={email}
                             onChange={(e) => setEmail(e.target.value)}
                         />
                         <button> SUBSCRIBE </button>

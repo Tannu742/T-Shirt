@@ -10,8 +10,8 @@ const SignIn = () => {
                 <div className='signIn col-5 marginAuto text-align-center'>
                     <h3> Login to your account </h3>
                     <form className='FrmLoginBox'>
-                        <input type="email"  className="w-100"  placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
-                        <input type="password"  className="w-100"  placeholder='Password' onChange={(e) => setPassword(e.target.value)} />
+                        <input type="email"  className="w-100" value={email} placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
+                        <input type="password"  className="w-100" value={password} placeholder='Password' onChange={(e) => setPassword(e.target.value)} />
                         <div className='row'>
                             <div className='col-5'>
                                 <input type="checkbox" />

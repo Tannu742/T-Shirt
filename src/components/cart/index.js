@@ -1,5 +1,5 @@
 import React from 'react';
-import { faCartShopping, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import { faCircleCheck, faCreditCard, faMap } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { NavLink } from 'react-router-dom';
