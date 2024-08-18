@@ -1,0 +1,29 @@
+:root {
+    --swiper-theme-color: black;
+    --swiper-navigation-size:30px;
+    --swiper-Font-size:10px;
+}
+.swiper-button-next:after{
+    font-size: var(--swiper-Font-size);
+}
+
+.swiper-button-prev:after{
+    font-size: var(--swiper-Font-size);
+}
+.swiper-button-next{
+    background-color: white;
+    font-size: 10px;
+    color: var(--swiper-theme-color);
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+.swiper-button-prev{
+    background-color: white;
+    font-size: 10px;
+    color: var(--swiper-theme-color);
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+}

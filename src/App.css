@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6{
+  width: 60%;
+}
+.col-5{
+  width: 50%;
+}
+.col-3{
+  width: 30%;
+}
+.col-2{
+  width: 20%;
+}
+.dFlex{
+  display: flex;
+}
+.col-2_3{
+  width: 23%;
+}
+.col-3{
+  width: 30%;
+}
+.fRight{
+  float: right;
+}
+.fLeft{
+  float: left;
+}
+.col-4{
+  width: 40%;
+}
+.col-25{
+  width: 25%;
+}
+.col-4_5{
+  width: 49.5%;
+}
+.col-8{
+  width: 80%;
+}
+.col-7{
+  width: 70%;
+}
+.w-100{
+  width: 100%;
+}
+.text-align-center{
+  text-align: center;
+}
+.text-align-right{
+  text-align: right;
+}
+.text-align-left{
+  text-align: left;
+}
+.align-items-center{
+  align-items: center;
+}
+.align-content-center{
+  align-content: center;
+}
+.align-content-end{
+  align-content: end;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-right{
+  justify-content: right;
+}
+.place-content-center{
+  place-content: center;
+}
+.justify-content-spaceEvenly{
+  justify-content: space-evenly;
+}
+.justify-content-spaceAround{
+  justify-content: space-around;
+}
+.justify-content-spaceBetween{
+  justify-content: space-between;
+}
+.position-relative{
+  position: relative;
+}
+.position-absolute{
+  position: absolute;
+}
+.noWrap{
+  flex-wrap: nowrap;
+}
+.overFlow_Auto{
+  overflow: auto;
+}
+.overFlow_X{
+  overflow-x: auto;
+}
+.px-10{
+  padding: 0 10px;
+}
+.py-10{
+  padding: 10px 0;
+}
+.mx-10{
+  margin: 0 10px;
+}
+.my-10{
+  margin: 10px 0;
+}
+.pR-15{
+  padding-right: 15px;
+}
+.pointer{
+  cursor: pointer;
+}
+.textCapital{
+  text-transform: capitalize;
+}
+.marginAuto{
+  margin: 0 auto;
+}
+.positionRelative{
+  position: relative;
+}
