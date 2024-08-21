@@ -92,7 +92,7 @@ import blackBshirtB from '../assets/img/aa (2).webp';
 import blackBshirtC from '../assets/img/aa (3).webp';
 import blackBshirtD from '../assets/img/aa (4).webp';
 
-export default {
+const siteData = {
     footer: {
         links: [{
             item: 'About Us',
@@ -341,3 +341,5 @@ export default {
         }
     ],
 }
+
+export default siteData;
