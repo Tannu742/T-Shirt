@@ -18,7 +18,7 @@ const SignIn = () => {
                                 <span className='px-10'>Remember Me</span>
                             </div>
                             <div className='col-5 text-align-right px-10'>
-                                <a href="/">Forget Password ?</a>
+                                <a href="/password">Forget Password ?</a>
                             </div>
                         </div>
                         <input type="submit" className='LoginBtn' value='Login' />
